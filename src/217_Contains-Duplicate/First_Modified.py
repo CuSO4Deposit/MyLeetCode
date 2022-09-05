@@ -1,6 +1,6 @@
 # My First Solution
 # Hash table in python is simple!
-# **TLE**, O(n)
+# **TLE**, O(n^2)
 
 class Solution:
     def containsDuplicate(self, nums: List[int]) -> bool:
