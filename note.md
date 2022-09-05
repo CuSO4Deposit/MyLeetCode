@@ -2,6 +2,8 @@
 
 ## Index
 
+[383. Ransom Note](#383)
+
 [412. Fizz Buzz](#412)
 
 [876. Middle of the Linked List](#876)
@@ -11,6 +13,12 @@
 [1480. Running Sum of 1d Array](#1480)
 
 [1672. Richest Customer Wealth](#1672)
+
+### 383
+
+I just fell again on this: Remember, always use `while(*ptr)` instead of `while(ptr)`when iterating over a string. 
+
+`char` cast to `int` : `*ptr - 'a'`may be better than `(int)*ptr - 95`.
 
 ### 412
 
